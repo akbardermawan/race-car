@@ -6,6 +6,26 @@ body {
   overflow: hidden;
 }
 
+.instruction {
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  background-color: rgb(252, 252, 113);
+  top: 0;
+  left: 0;
+  border-bottom-right-radius: 10px;
+}
+.instruction .instruction-title {
+  color: blue;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.instruction .instruction-content {
+  margin-bottom: 1rem;
+  font-family: serif;
+}
+
 #myCanvas {
   background-color: rgb(196, 196, 196);
 }

@@ -3,13 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Self-Driving Car Tutor</title>
+    <title>Self-Driving Car</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- Father Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
+    <div class="instruction">
+      <h3 class="instruction-title">Instruction</h3>
+      <div class="instruction-content">
+        <i data-feather="arrow-up"></i>
+        Tekan tombol W untuk menjalankan mobil
+      </div>
+      <div class="instruction-content">
+        <i data-feather="arrow-left"></i>
+        Tekan tombol W dan A untuk menjalankan mobil berbelok kekiri
+      </div>
+      <div class="instruction-content">
+        <i data-feather="arrow-right"></i>
+        Tekan tombol W dan D untuk menjalankan mobil berbelok kekanan
+      </div>
+    </div>
     <canvas id="myCanvas"></canvas>
     <script src="controls.js"></script>
+    <script src="road.js"></script>
     <script src="car.js"></script>
     <script src="main.js"></script>
+
+    <!-- father icon -->
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
